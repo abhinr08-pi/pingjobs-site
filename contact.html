@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us — pingjobs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-base: #0D1117;
+    --bg-surface: #161B22;
+    --text-primary: #E6EDF3;
+    --text-muted: #8B949E;
+    --accent-teal: #56D4C4;
+    --border: #2A313C;
+    --font-mono: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
+    --font-sans: 'Inter', -apple-system, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg-base);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    line-height: 1.65;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+  a { color: var(--accent-teal); }
+  .back-link {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 32px;
+  }
+  h1 {
+    font-family: var(--font-mono);
+    font-weight: 800;
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+  .card {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 24px;
+  }
+  .row { margin-bottom: 16px; }
+  .row:last-child { margin-bottom: 0; }
+  .label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--accent-teal);
+    margin-bottom: 4px;
+  }
+  .value { font-size: 15px; }
+  p { color: #C7CDD4; font-size: 14.5px; }
+  .placeholder {
+    background: rgba(240,166,63,0.12);
+    border: 1px solid #F0A63F;
+    color: #F0A63F;
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-family: var(--font-mono);
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back-link" href="index.html">&larr; Back to pingjobs</a>
+  <h1>Contact Us</h1>
+
+  <div class="card">
+    <div class="row">
+      <div class="label">Business name</div>
+      <div class="value"><span class="placeholder">[pingjobs]</span></div>
+    </div>
+    <div class="row">
+      <div class="label">Support email</div>
+      <div class="value"><span class="placeholder">[pingjobs08@gmail.com]</span></div>
+    </div>
+    <div class="row">
+      <div class="label">Phone</div>
+      <div class="value"><span class="placeholder">[+91 8157875075]</span></div>
+    </div>
+    <div class="row">
+      <div class="label">Registered address</div>
+      <div class="value"><span class="placeholder">[Pune, India]</span></div>
+    </div>
+    <div class="row">
+      <div class="label">Business hours</div>
+      <div class="value"><span class="placeholder">[e.g. Mon–Fri, 10am–6pm IST]</span></div>
+    </div>
+  </div>
+
+  <p style="margin-top:24px;">For billing questions, see our
+  <a href="refund.html">Refund &amp; Cancellation Policy</a>. For data or
+  privacy questions, see our <a href="privacy.html">Privacy Policy</a>.</p>
+</div>
+</body>
+</html>
